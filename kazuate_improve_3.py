@@ -5,7 +5,7 @@ a3 = random.randint(0, 9)
 a4 = random.randint(0, 9)
 a = str(a1)+str(a2)+str(a3)+str(a4)
 hit=0
-print(a)
+print(a)　#実際運用する際はこの行を削除。
 b = input("4桁の数字を入力してください:")
 for i in range(4):
     if b[i]>"9" or b[i]<"0":
